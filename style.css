@@ -1,19 +1,19 @@
-body{
-   padding: auto;
-   margin: 20px; 
-   background-color: antiquewhite;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-   
 .top-header{
     width: 100%;
-    height: 90px;
+    height: 60px;
     background-color:black;
     display:flex;
     justify-content: space-between;
 }
 .logo img{
     width: 100px;
-    height: 90px;
+    height: 60px;
 }
 .menu ul{
     display:flex;
@@ -26,30 +26,114 @@ body{
     text-decoration: none;
     color:white;
   }
-  .banner{
+header{
     width: 100%;
-    height: 700px;
-  }
-  .banner img{
-width: 100%;
-height: 100%;
-  }
-  
-.news-section{
-  width: 25%%;
-  margin:0px;
+    height:800px;
+    background-image: url(header-bg.png);
+    background-position: buttom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.header-content {
+    margin-bottom: 150px;
+    color: white;
+    text-align: center;
+}
+.header-content h2 {
+   font-size: 30px; 
+}
+.line {
+    width: 150px;
+    height: 4px;
+    background-color:#fc036b;
+    margin: 10px auto;
+}
+.header-content h1{
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.ctn{
+    padding: 8px 15px;
+    background: #fc036b;
+    border-radius: 30px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+.row{
   display: flex;
-  justify-content: space-between;
-  background-color:aliceblue;
-  margin-top: 10px;
-}
-.news{
-  width: 29%;
-  height: 400px;
-  background-color: bisque;.news
-}
-.image img{
+  align-items: center;
   width: 100%;
-  height: 100%;
+  justify-content: space-between;
+ 
 }
+.row .col{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.event .row{
+  margin-top: 50px;
+}
+h4{
+  font-size: 20px;
+  color: #484872;
+  max-resolution: 40px auto;
+}
+p{
+  color: #7c7c7c;
+  width: 75%;
+  padding: 0px 40px;
+}
+.events .ctn{
+margin-top: 30px;
+}
+h1{
+text-align: center;
+}
+.explore{
+  width: 100%;
+  height: 750px;
+  background-image: url(bg2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.explore-content {
+ width: 60%;
+ padding: 70px;
+ color: whitesmoke;
+}
+.explore-content h1{
+ font-size: 50px;
+ padding: 0;
+}
+.image-gallery img{
+  display: flex;
+  margin: 10px;
 
+}
+.tours .row .col{
+  width: 50%;
+}
+.tours .image-gallery{
+  display: flex;
+  flex-wrap: wrap;
+}
+.image-gallery img{
+  width: 350px;
+}
+ .class button{
+  color: white;
+  background-color:#fc036b;
+ }
+ footer{
+  background-color: black;
+  height: 60px;
+  color: whitesmoke;
+  text-align: center;
+  padding: 10px;
+ }
+ 
